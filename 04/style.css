@@ -1,0 +1,34 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+html , 
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 30px 50px;
+}
+
+#part2{
+    display: flex;
+    gap: 50px;
+}
+
+#name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    white-space: nowrap;
+}
