@@ -1,0 +1,73 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+html , 
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url(https://imgs.search.brave.com/AGg9NIj6lR14qs8raVZDQ2Eo7G0w9ySQRT5fpBUugcQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LnBleGVscy5j/b20vaW1hZ2VzL2Nh/bnZhL2FpLWdlbmVy/YXRlZC1hZC9vZmYt/dGhlbWUvY3JlcHVz/Y3VsYXJfcmF5c19i/dXJzdGluZy1mdWxs/LmpwZw);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 50px;
+    color: #fff;
+}
+
+#nav h2{
+    font-size: 30px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.211);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(15px);
+    padding: 150px 60px;
+}
+
+#full h4{
+    font-size: 50px;
+    font-weight: 500 ;
+    margin-bottom: 10px;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
