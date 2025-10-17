@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: white;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  padding-left: 40%;
+
+
+
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 10px;
+  margin: 80px;
+}
+
+button{
+  width: 80px;
+  height: 30px;
+  color: white;
+  padding: 20px 60px;
+  border-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 120px;
+
+}
